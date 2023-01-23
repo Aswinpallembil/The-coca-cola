@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500&display=swap');
+
+.container{
+    text-align: center;
+}
+.Header{
+    background-color: rgb(255, 255, 255);
+    height: 69px;
+    width: 100%;
+    display: flex;
+    /* text-align: center; */
+}
+body{
+    margin: 0%;
+}
+.logo{
+    height: 26px;
+    width: auto;
+    margin-top: 24px;
+    margin-left: 5%;
+}
+.hed-blk{
+    text-align: center;
+    padding-left: 19px;
+    padding-right: 19px;
+    /* background-color: rgb(89, 251, 197); */
+    height: auto;
+}
+.hed-val{
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 29px;
+    color: #212121;
+}
+.c1:hover{
+    background-color: red;
+}
+.c1-b{
+    margin-left: 10px;
+}
+.c2:hover{
+    background-color: #ff7300;
+}
+.c3:hover{
+    background-color: #28a745;
+}
+.c4:hover{
+    background-color: #17a2b8;
+}
+.c5:hover:hover{
+    background-color: #ffc107;
+}
+.c6:hover{
+    background-color: #ffa600;
+}
+.c7:hover{
+    background-color: #a49362;
+}
+.block-1{
+    height: 450px;
+    width: 100%;
+    padding-top:80px;
+    background-image: url(./assets/block-1.webp);
+    background-size: contain;
+    background-size: cover;   
+}
+.f1{
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    font-weight: 500;
+    text-shadow: 2px 2px 8px #212121;
+}
+.f2{
+    font-family: 'Red Hat Display', sans-serif;
+    color: white;
+    font-weight: 400;
+    text-shadow: 1px 1px 8px #212121;
+    font-size: 18px;
+}
+.f3{
+    font-size: 16px;
+}
+.blk-p-1{
+    margin-left: 102px;
+    text-align: left;
+    width: 400px;
+}
+.block-2{
+    height: 450px;
+    width: 100%;
+    background-image: url(./assets/block-2.webp);
+    background-size: contain;
+    background-size: cover; 
+    padding-top: 100px; 
+
+}
+.blk-p-2{
+    margin-left:800px;
+    text-align: left;
+    width: 400px;
+}
+.block-3{
+    height: 450px;
+    width: 100%;
+    padding-top: 80px;
+    background-image: url(./assets/block-3.webp);
+    background-size: contain;
+    background-size: cover;   
+}
+.blk-p-3{
+    margin-left: 102px;
+    text-align: left;
+    width: 400px;
+}
+.block-4{
+    height: 450px;
+    width: 100%;
+    background-image: url(./assets/block-4.webp);
+    background-size: contain;
+    background-size: cover; 
+    padding-top: 100px; 
+
+}
+.block-5{
+    height: 450px;
+    width: 100%;
+    padding-top: 80px;
+    background-image: url(./assets/block-5.webp);
+    background-size: contain;
+    background-size: cover;   
+}
+.block-6{
+    height: 450px;
+    width: 100%;
+    background-image: url(./assets/block-6.webp);
+    background-size: contain;
+    background-size: cover; 
+    padding-top: 100px; 
+
+}
+footer{
+    width: 100%;
+    height: 180px;
+    background-color: rgb(92, 88, 88);
+
+}
+.image{
+    width: 220px;
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.ftr{
+    
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: aliceblue;
+}
